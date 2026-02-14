@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "LaunchPad Hub",
+  "version": "1.0.0",
+  "description": "Заменяет страницу новой вкладки и отображает панели закладок.",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": ["storage", "<all_urls>"],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
